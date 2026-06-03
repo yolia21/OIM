@@ -159,20 +159,12 @@ export default function Home() {
           
           {/* Logo / Seal */}
           <div className="flex items-center gap-4">
-            <div className="relative w-24 h-24 flex-shrink-0 flex items-center justify-center rounded-full bg-islamic-green border-4 border-islamic-gold shadow-md">
-              {/* Islamic Star Mandala SVG inside seal */}
-              <svg className="w-20 h-20 text-islamic-gold" viewBox="0 0 100 100" fill="currentColor">
-                <defs>
-                  <path id="star" d="M50 0 L55 35 L90 35 L60 55 L70 90 L50 70 L30 90 L40 55 L10 35 L45 35 Z" />
-                </defs>
-                <circle cx="50" cy="50" r="48" fill="none" stroke="#D4AF37" strokeWidth="2" />
-                <circle cx="50" cy="50" r="43" fill="none" stroke="#D4AF37" strokeWidth="1" strokeDasharray="3,3" />
-                {/* Crescent and Star in center */}
-                <path d="M47 33 A15 15 0 1 0 65 52 A12 12 0 1 1 47 33 Z" fill="#D4AF37" />
-                <polygon points="61,34 64,39 69,39 65,42 67,47 62,44 57,47 59,42 55,39 60,39" fill="#D4AF37" />
-                {/* Outer star shape decoration */}
-                <path d="M50 8 L53 25 L70 15 L58 30 L78 30 L62 40 L80 50 L62 60 L78 70 L58 70 L70 85 L53 75 L50 92 L47 75 L30 85 L42 70 L22 70 L38 60 L20 50 L38 40 L22 30 L42 30 L30 15 L47 25 Z" fill="none" stroke="#D4AF37" strokeWidth="1" opacity="0.4" />
-              </svg>
+            <div className="relative w-28 h-18 flex-shrink-0 flex items-center justify-center overflow-hidden rounded border-2 border-islamic-gold shadow-md bg-islamic-green">
+              <img 
+                src="/250px-Organization_of_Islamic_Micronations_Flag.png" 
+                alt="Organization of Islamic Micronations Flag"
+                className="w-full h-full object-cover"
+              />
             </div>
             
             <div className="text-center md:text-left">
