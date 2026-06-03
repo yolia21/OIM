@@ -293,71 +293,136 @@ export default function Home() {
               </div>
             </section>
 
-            {/* ABOUT THE ORGANIZATION: WHAT IS OIM */}
-            <section className="parchment-container p-6 md:p-8 rounded shadow-lg text-center max-w-4xl mx-auto space-y-6">
-              <div className="space-y-2">
-                <h3 className="font-serif text-2xl font-extrabold text-slate-100">
-                  What is the OIM?
-                </h3>
-                <p className="font-arabic text-xl text-islamic-gold font-bold">
-                  ما هي منظمة الدول الإسلامية المجهرية؟
-                </p>
-              </div>
-
-              <div className="max-w-3xl mx-auto space-y-4 font-serif text-sm md:text-base text-slate-300 leading-relaxed text-justify md:text-center">
-                <p>
-                  The Organization of Islamic Micronations (OIM) is an intermicronational organization established on <strong className="text-islamic-gold">12 March 2024</strong>. The OIM serves as a formal platform for micronations with Islamic affiliations to engage in high-level diplomacy, cultural exchange, and mutual cooperation.
-                </p>
-                <p className="italic text-slate-400 bg-[#051410] p-4 rounded border border-emerald-950/40 text-center">
-                  &ldquo;Recognizing the importance of Islam as a unifying factor among nations, the OIM is deeply committed to unity, cooperation, and mutual development among nations where Islam holds significant cultural, historical, and religious significance.&rdquo;
-                </p>
-              </div>
-
-              {/* Core Pillars Grid */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4 text-left">
+            {/* ABOUT THE ORGANIZATION: WHAT IS OIM (REVISED) */}
+            <section className="max-w-6xl mx-auto">
+              <div className="bg-[#FAF9F5] text-gray-900 border-2 border-islamic-gold p-6 md:p-8 rounded shadow-2xl space-y-8">
                 
-                <div className="p-4 bg-[#0a2720] border border-emerald-950/60 rounded flex flex-col justify-between hover:border-islamic-gold/40 transition-all duration-300">
-                  <div>
-                    <h5 className="font-serif text-sm font-bold text-islamic-gold flex items-center gap-1.5">
-                      <span className="w-1.5 h-1.5 rounded-full bg-islamic-gold"></span>
-                      Unity & Solidarity
-                    </h5>
-                    <p className="font-arabic text-xs font-semibold text-slate-300 mt-0.5">
-                      الاتحاد والتضامن
-                    </p>
-                    <p className="text-[11px] text-slate-400 font-serif mt-2 leading-relaxed">
-                      Fostering goodwill and a deep sense of community among Muslim micronations.
+                {/* Header */}
+                <div className="text-center space-y-2">
+                  <h3 className="font-serif text-3xl font-extrabold text-islamic-green">
+                    What is the OIM?
+                  </h3>
+                  <p className="font-arabic text-2xl text-islamic-gold font-bold">
+                    ما هي منظمة الدول الإسلامية المجهرية؟
+                  </p>
+                  <div className="h-0.5 bg-islamic-gold/30 w-32 mx-auto mt-3"></div>
+                </div>
+
+                {/* Extended Core Overview */}
+                <div className="max-w-4xl mx-auto space-y-6 font-serif text-sm md:text-base leading-relaxed text-gray-800">
+                  <p className="text-justify md:text-center text-gray-700">
+                    The Organization of Islamic Micronations (OIM) is a sovereign intermicronational organization established on <strong className="text-islamic-green-hover">12 March 2024</strong>. Operating under the current constitutional Charter ratified on <strong className="text-islamic-green-hover">23 June 2024</strong>, the OIM serves as a formal framework for micronations with Islamic affiliations to engage in high-level diplomacy, cultural preservation, and mutual strategic cooperation.
+                  </p>
+                  <div className="bg-[#F3EFE3] text-[#065F46] p-5 rounded border-l-4 border-islamic-gold shadow-sm">
+                    <span className="text-[10px] font-sans font-bold text-islamic-gold uppercase tracking-wider block mb-1">Mission Statement</span>
+                    <p className="italic font-medium leading-relaxed">
+                      &ldquo;Guided by the noble principles of unity and solidarity, the organization is built on the recognition of Islam as a powerful unifying force among nations, striving to foster deep community ties, mutual development, and shared prosperity among its member states.&rdquo;
                     </p>
                   </div>
                 </div>
 
-                <div className="p-4 bg-[#0a2720] border border-emerald-950/60 rounded flex flex-col justify-between hover:border-islamic-gold/40 transition-all duration-300">
-                  <div>
-                    <h5 className="font-serif text-sm font-bold text-islamic-gold flex items-center gap-1.5">
-                      <span className="w-1.5 h-1.5 rounded-full bg-islamic-gold"></span>
-                      Diplomatic Coordination
-                    </h5>
-                    <p className="font-arabic text-xs font-semibold text-slate-300 mt-0.5">
-                      التنسيق الدبلوماسي
-                    </p>
-                    <p className="text-[11px] text-slate-400 font-serif mt-2 leading-relaxed">
-                      Providing a unified framework for information sharing, regional stability, and peaceful dispute resolution.
-                    </p>
+                {/* The Five Charter Pillars */}
+                <div className="space-y-4">
+                  <h4 className="font-serif text-xs font-bold text-islamic-green-hover uppercase tracking-widest text-center">
+                    The Five Charter Aims & Pillars (Article I Framework)
+                  </h4>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+                    
+                    <div className="bg-white border border-islamic-gold/30 hover:border-islamic-gold hover:shadow-md transition-all duration-300 p-4 rounded flex flex-col justify-between">
+                      <div>
+                        <h5 className="font-serif text-xs font-bold text-islamic-green-hover flex items-center gap-1.5 leading-snug">
+                          <span className="w-1.5 h-1.5 rounded-full bg-islamic-gold"></span>
+                          Friendship
+                        </h5>
+                        <p className="font-arabic text-xs font-semibold text-islamic-gold/80 mt-0.5">
+                          تعزيز الصداقة
+                        </p>
+                        <p className="text-[11px] text-gray-600 font-serif mt-2.5 leading-relaxed">
+                          Committed to promoting goodwill, brotherhood, and friendship among Muslim micronations to build a resilient sense of community and global solidarity.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="bg-white border border-islamic-gold/30 hover:border-islamic-gold hover:shadow-md transition-all duration-300 p-4 rounded flex flex-col justify-between">
+                      <div>
+                        <h5 className="font-serif text-xs font-bold text-islamic-green-hover flex items-center gap-1.5 leading-snug">
+                          <span className="w-1.5 h-1.5 rounded-full bg-islamic-gold"></span>
+                          Economic
+                        </h5>
+                        <p className="font-arabic text-xs font-semibold text-islamic-gold/80 mt-0.5">
+                          التعاون الاقتصادي
+                        </p>
+                        <p className="text-[11px] text-gray-600 font-serif mt-2.5 leading-relaxed">
+                          Actively exploring cross-border economic cooperation, trade infrastructure, and joint venture opportunities to directly benefit participating Muslim micronations.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="bg-white border border-islamic-gold/30 hover:border-islamic-gold hover:shadow-md transition-all duration-300 p-4 rounded flex flex-col justify-between">
+                      <div>
+                        <h5 className="font-serif text-xs font-bold text-islamic-green-hover flex items-center gap-1.5 leading-snug">
+                          <span className="w-1.5 h-1.5 rounded-full bg-islamic-gold"></span>
+                          Cultural
+                        </h5>
+                        <p className="font-arabic text-xs font-semibold text-islamic-gold/80 mt-0.5">
+                          التبادل الثقافي
+                        </p>
+                        <p className="text-[11px] text-gray-600 font-serif mt-2.5 leading-relaxed">
+                          Facilitating robust cultural exchange programs, diplomatic events, and historical initiatives that celebrate, document, and preserve the rich Islamic heritage of the member nations.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="bg-white border border-islamic-gold/30 hover:border-islamic-gold hover:shadow-md transition-all duration-300 p-4 rounded flex flex-col justify-between">
+                      <div>
+                        <h5 className="font-serif text-xs font-bold text-islamic-green-hover flex items-center gap-1.5 leading-snug">
+                          <span className="w-1.5 h-1.5 rounded-full bg-islamic-gold"></span>
+                          Defence
+                        </h5>
+                        <p className="font-arabic text-xs font-semibold text-islamic-gold/80 mt-0.5">
+                          الدفاع والأمن
+                        </p>
+                        <p className="text-[11px] text-gray-600 font-serif mt-2.5 leading-relaxed">
+                          Enhancing mutual security across the intermicronational sphere through continuous diplomatic consultations, stability coordination, and strategic crisis management.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="bg-white border border-islamic-gold/30 hover:border-islamic-gold hover:shadow-md transition-all duration-300 p-4 rounded flex flex-col justify-between">
+                      <div>
+                        <h5 className="font-serif text-xs font-bold text-islamic-green-hover flex items-center gap-1.5 leading-snug">
+                          <span className="w-1.5 h-1.5 rounded-full bg-islamic-gold"></span>
+                          Diplomatic
+                        </h5>
+                        <p className="font-arabic text-xs font-semibold text-islamic-gold/80 mt-0.5">
+                          التنسيق الدبلوماسي
+                        </p>
+                        <p className="text-[11px] text-gray-600 font-serif mt-2.5 leading-relaxed">
+                          Maintaining a centralized platform for sovereign diplomatic coordination, intelligence and information sharing, and unified voting blocs on regional and global micronational issues.
+                        </p>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
 
-                <div className="p-4 bg-[#0a2720] border border-emerald-950/60 rounded flex flex-col justify-between hover:border-islamic-gold/40 transition-all duration-300">
-                  <div>
-                    <h5 className="font-serif text-sm font-bold text-islamic-gold flex items-center gap-1.5">
-                      <span className="w-1.5 h-1.5 rounded-full bg-islamic-gold"></span>
-                      Cultural & Economic Exchange
-                    </h5>
-                    <p className="font-arabic text-xs font-semibold text-slate-300 mt-0.5">
-                      التبادل الثقافي والاقتصادي
-                    </p>
-                    <p className="text-[11px] text-slate-400 font-serif mt-2 leading-relaxed">
-                      Celebrating and preserving the rich shared heritage of member states while exploring joint development opportunities.
-                    </p>
+                {/* UI Metrics Bar */}
+                <div className="border-t border-islamic-gold/30 pt-6 mt-6">
+                  <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-sans text-gray-500">
+                    <div className="flex items-center gap-2">
+                      <strong className="text-islamic-green font-bold">Founded:</strong>
+                      <span>12 March 2024</span>
+                    </div>
+                    <div className="hidden md:inline-block text-islamic-gold">|</div>
+                    <div className="flex items-center gap-2">
+                      <strong className="text-islamic-green font-bold">Current Charter:</strong>
+                      <span>23 June 2024</span>
+                    </div>
+                    <div className="hidden md:inline-block text-islamic-gold">|</div>
+                    <div className="flex items-center gap-2 text-center md:text-left">
+                      <strong className="text-islamic-green font-bold">Jurisdiction:</strong>
+                      <span>Independent Executive, Legislative (General Assembly), and Judicial (Supreme Court) branches.</span>
+                    </div>
                   </div>
                 </div>
 
