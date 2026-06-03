@@ -293,6 +293,77 @@ export default function Home() {
               </div>
             </section>
 
+            {/* ABOUT THE ORGANIZATION: WHAT IS OIM */}
+            <section className="parchment-container p-6 md:p-8 rounded shadow-lg text-center max-w-4xl mx-auto space-y-6">
+              <div className="space-y-2">
+                <h3 className="font-serif text-2xl font-extrabold text-slate-100">
+                  What is the OIM?
+                </h3>
+                <p className="font-arabic text-xl text-islamic-gold font-bold">
+                  ما هي منظمة الدول الإسلامية المجهرية؟
+                </p>
+              </div>
+
+              <div className="max-w-3xl mx-auto space-y-4 font-serif text-sm md:text-base text-slate-300 leading-relaxed text-justify md:text-center">
+                <p>
+                  The Organization of Islamic Micronations (OIM) is an intermicronational organization established on <strong className="text-islamic-gold">12 March 2024</strong>. The OIM serves as a formal platform for micronations with Islamic affiliations to engage in high-level diplomacy, cultural exchange, and mutual cooperation.
+                </p>
+                <p className="italic text-slate-400 bg-[#051410] p-4 rounded border border-emerald-950/40 text-center">
+                  &ldquo;Recognizing the importance of Islam as a unifying factor among nations, the OIM is deeply committed to unity, cooperation, and mutual development among nations where Islam holds significant cultural, historical, and religious significance.&rdquo;
+                </p>
+              </div>
+
+              {/* Core Pillars Grid */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4 text-left">
+                
+                <div className="p-4 bg-[#0a2720] border border-emerald-950/60 rounded flex flex-col justify-between hover:border-islamic-gold/40 transition-all duration-300">
+                  <div>
+                    <h5 className="font-serif text-sm font-bold text-islamic-gold flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-islamic-gold"></span>
+                      Unity & Solidarity
+                    </h5>
+                    <p className="font-arabic text-xs font-semibold text-slate-300 mt-0.5">
+                      الاتحاد والتضامن
+                    </p>
+                    <p className="text-[11px] text-slate-400 font-serif mt-2 leading-relaxed">
+                      Fostering goodwill and a deep sense of community among Muslim micronations.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="p-4 bg-[#0a2720] border border-emerald-950/60 rounded flex flex-col justify-between hover:border-islamic-gold/40 transition-all duration-300">
+                  <div>
+                    <h5 className="font-serif text-sm font-bold text-islamic-gold flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-islamic-gold"></span>
+                      Diplomatic Coordination
+                    </h5>
+                    <p className="font-arabic text-xs font-semibold text-slate-300 mt-0.5">
+                      التنسيق الدبلوماسي
+                    </p>
+                    <p className="text-[11px] text-slate-400 font-serif mt-2 leading-relaxed">
+                      Providing a unified framework for information sharing, regional stability, and peaceful dispute resolution.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="p-4 bg-[#0a2720] border border-emerald-950/60 rounded flex flex-col justify-between hover:border-islamic-gold/40 transition-all duration-300">
+                  <div>
+                    <h5 className="font-serif text-sm font-bold text-islamic-gold flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-islamic-gold"></span>
+                      Cultural & Economic Exchange
+                    </h5>
+                    <p className="font-arabic text-xs font-semibold text-slate-300 mt-0.5">
+                      التبادل الثقافي والاقتصادي
+                    </p>
+                    <p className="text-[11px] text-slate-400 font-serif mt-2 leading-relaxed">
+                      Celebrating and preserving the rich shared heritage of member states while exploring joint development opportunities.
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </section>
+
             {/* DIPLOMATIC METRICS & SUMMIT TRACKER */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               
