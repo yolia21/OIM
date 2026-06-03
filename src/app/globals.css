@@ -4,21 +4,21 @@
   --color-islamic-green: #065F46;
   --color-islamic-green-hover: #044E39;
   --color-islamic-green-light: #0F766E;
-  --color-islamic-green-tint: #E6F4EA;
+  --color-islamic-green-tint: #0B2921;
   --color-islamic-gold: #D4AF37;
   --color-islamic-gold-hover: #C5A02E;
   --color-islamic-gold-light: #F1D46E;
-  --color-parchment: #FAF9F5;
-  --color-parchment-dark: #F3EFE3;
-  --color-slate-white: #F8FAFC;
+  --color-parchment: #081E19;
+  --color-parchment-dark: #040D0B;
+  --color-slate-white: #FAF9F5;
   --font-serif: var(--font-playfair), Georgia, serif;
   --font-sans: var(--font-inter), sans-serif;
   --font-arabic: var(--font-amiri), 'Noto Naskh Arabic', serif;
 }
 
 :root {
-  --background: #FAF9F5;
-  --foreground: #1F2937;
+  --background: #040D0B;
+  --foreground: #FAF9F5;
 }
 
 body {
@@ -32,7 +32,7 @@ body {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #FAF9F5;
+  background: #040D0B;
 }
 ::-webkit-scrollbar-thumb {
   background: #D4AF37;
@@ -42,20 +42,20 @@ body {
   background: #B89325;
 }
 
-/* Custom Parchment Container Utility */
+/* Custom Dark Parchment Container Utility */
 .parchment-container {
-  background-color: #FAF9F5;
-  background-image: radial-gradient(#F5F2E9 1px, transparent 0), radial-gradient(#F5F2E9 1px, #FAF9F5 0);
+  background-color: #081E19;
+  background-image: radial-gradient(#051411 1px, transparent 0), radial-gradient(#051411 1px, #081E19 0);
   background-size: 8px 8px;
   background-position: 0 0, 4px 4px;
-  border: 1px solid rgba(212, 175, 55, 0.4);
-  box-shadow: 0 4px 20px -2px rgba(212, 175, 55, 0.15), inset 0 0 40px rgba(212, 175, 55, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  box-shadow: 0 8px 30px -4px rgba(0, 0, 0, 0.6), inset 0 0 40px rgba(212, 175, 55, 0.03);
 }
 
 /* Subtle diplomatic border */
 .diplomatic-border {
-  border: 1px solid rgba(212, 175, 55, 0.5);
-  box-shadow: 0 0 10px rgba(212, 175, 55, 0.1);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 /* Gold shimmer effect */
