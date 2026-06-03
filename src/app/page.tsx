@@ -357,39 +357,82 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* DIPLOMATIC SEAL METRICS CARD */}
-              <div className="parchment-container p-6 rounded flex flex-col justify-between border-l-4 border-l-islamic-gold">
-                <div>
-                  <h4 className="font-serif text-sm font-bold text-islamic-gold uppercase tracking-wider">
-                    General Assembly Stats
-                  </h4>
-                  <div className="mt-4 space-y-4">
-                    <div className="flex justify-between items-center pb-2 border-b border-[#051411]">
-                      <span className="text-sm font-serif text-slate-300">Full Member Nations</span>
-                      <span className="font-bold text-islamic-gold text-lg">8</span>
+              {/* STATS & LINKS STACK */}
+              <div className="flex flex-col gap-6">
+                
+                {/* DIPLOMATIC SEAL METRICS CARD */}
+                <div className="parchment-container p-6 rounded border-l-4 border-l-islamic-gold">
+                  <div>
+                    <h4 className="font-serif text-sm font-bold text-islamic-gold uppercase tracking-wider">
+                      General Assembly Stats
+                    </h4>
+                    <div className="mt-4 space-y-4">
+                      <div className="flex justify-between items-center pb-2 border-b border-[#051411]">
+                        <span className="text-sm font-serif text-slate-300">Full Member Nations</span>
+                        <span className="font-bold text-islamic-gold text-lg">8</span>
+                      </div>
+                      <div className="flex justify-between items-center pb-2 border-b border-[#051411]">
+                        <span className="text-sm font-serif text-slate-300">Observer Micronations</span>
+                        <span className="font-bold text-islamic-gold text-lg">4</span>
+                      </div>
+                      <div className="flex justify-between items-center pb-2 border-b border-[#051411]">
+                        <span className="text-sm font-serif text-slate-300">Total Cabinet Seats</span>
+                        <span className="font-bold text-islamic-gold text-lg">8</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm font-serif text-slate-300">Active Charters</span>
+                        <span className="font-bold text-emerald-400 text-sm flex items-center gap-1">
+                          <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
+                          May 2026 Rev.
+                        </span>
+                      </div>
                     </div>
-                    <div className="flex justify-between items-center pb-2 border-b border-[#051411]">
-                      <span className="text-sm font-serif text-slate-300">Observer Micronations</span>
-                      <span className="font-bold text-islamic-gold text-lg">4</span>
-                    </div>
-                    <div className="flex justify-between items-center pb-2 border-b border-[#051411]">
-                      <span className="text-sm font-serif text-slate-300">Total Cabinet Seats</span>
-                      <span className="font-bold text-islamic-gold text-lg">8</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm font-serif text-slate-300">Active Charters</span>
-                      <span className="font-bold text-emerald-400 text-sm flex items-center gap-1">
-                        <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
-                        May 2026 Rev.
-                      </span>
+                  </div>
+                  <div className="mt-6">
+                    <span className="text-[10px] text-slate-550 block text-center font-mono uppercase tracking-wider">
+                      SECURE HASH: MAY-2026-OIM
+                    </span>
+                  </div>
+                </div>
+
+                {/* EXTERNAL LINKS CARD */}
+                <div className="parchment-container p-6 rounded border-l-4 border-l-islamic-gold">
+                  <div>
+                    <h4 className="font-serif text-sm font-bold text-islamic-gold uppercase tracking-wider">
+                      External Diplomatic Links
+                    </h4>
+                    <div className="mt-4 space-y-3 font-serif text-xs">
+                      <a 
+                        href="https://discord.gg/zErwwArmGm" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="flex items-center justify-between p-2.5 rounded bg-[#061814] hover:bg-[#0a2720] border border-emerald-950/40 text-slate-200 hover:text-islamic-gold transition-all"
+                      >
+                        <span className="font-bold">OIM Discord Server</span>
+                        <span className="text-[9px] bg-indigo-950/45 text-indigo-400 px-2 py-0.5 rounded border border-indigo-900/30">Connect</span>
+                      </a>
+                      <a 
+                        href="https://micronations.wiki/wiki/Organization_of_Islamic_Micronations" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="flex items-center justify-between p-2.5 rounded bg-[#061814] hover:bg-[#0a2720] border border-emerald-950/40 text-slate-200 hover:text-islamic-gold transition-all"
+                      >
+                        <span className="font-bold">OIM MicroWiki Page</span>
+                        <span className="text-[9px] bg-sky-950/45 text-sky-400 px-2 py-0.5 rounded border border-sky-900/30">Wiki</span>
+                      </a>
+                      <a 
+                        href="https://sites.google.com/view/organisation-of-islamic-micro/home" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="flex items-center justify-between p-2.5 rounded bg-[#061814] hover:bg-[#0a2720] border border-emerald-950/40 text-slate-200 hover:text-islamic-gold transition-all"
+                      >
+                        <span className="font-bold">Google Site (Legacy)</span>
+                        <span className="text-[9px] bg-emerald-950/45 text-emerald-400 px-2 py-0.5 rounded border border-emerald-900/30">Official</span>
+                      </a>
                     </div>
                   </div>
                 </div>
-                <div className="mt-6">
-                  <span className="text-[10px] text-slate-550 block text-center font-mono uppercase tracking-wider">
-                    SECURE HASH: MAY-2026-OIM
-                  </span>
-                </div>
+
               </div>
 
             </div>
@@ -961,7 +1004,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer className="bg-[#051410] text-[#FAF9F5] py-12 px-6 mt-12 border-t border-islamic-gold/40">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
           
           <div>
             <span className="font-serif text-lg font-bold text-islamic-gold block mb-3">
@@ -996,6 +1039,44 @@ export default function Home() {
                 <button onClick={() => setActiveTab("news")} className="hover:text-islamic-gold transition-colors text-left">
                   Election Administration Commission
                 </button>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <span className="font-serif text-sm font-bold text-islamic-gold uppercase tracking-wider block mb-3">
+              Diplomatic Channels
+            </span>
+            <ul className="text-xs space-y-2 font-serif text-slate-400">
+              <li>
+                <a 
+                  href="https://discord.gg/zErwwArmGm" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-islamic-gold transition-colors flex items-center gap-1.5"
+                >
+                  Discord Server
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://micronations.wiki/wiki/Organization_of_Islamic_Micronations" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-islamic-gold transition-colors flex items-center gap-1.5"
+                >
+                  OIM MicroWiki Page
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://sites.google.com/view/organisation-of-islamic-micro/home" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-islamic-gold transition-colors flex items-center gap-1.5"
+                >
+                  Google Site (Legacy)
+                </a>
               </li>
             </ul>
           </div>
